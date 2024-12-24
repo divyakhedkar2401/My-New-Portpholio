@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            flex: 1;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+
+        .about h2, .projects h2, .contact h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .projects ul {
+            list-style-type: none;
+        }
+
+        .projects li {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .about, .projects, .contact {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Divya Khedkar</h1>
+        <p>Web Developer | Designer | Problem Solver</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Divya Khedkar, a passionate web developer and designer with a strong background in building responsive and user-friendly websites. I love to create beautiful, functional, and efficient web solutions. I'm always looking to learn new technologies and improve my skills.</p>
+        <p>Skills: HTML, CSS, JavaScript, </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <h3>Lab 9</h3>
+                <p>Table within table</p>
+                <a href="LAb9.html">View Project</a>
+            </li>
+            <li>
+                <h3>Lab 10</h3>
+                <p>First year timetable</p>
+                <a href="Lab10.html">View Project</a>
+            </li>
+            <li>
+                <h3>Lab 11</h3>
+                <p>Form filling information</p>
+                <a href="Lab11.html">View Project</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Whether it's about a project, collaboration, or just to say hello, feel free to reach out.</p>
+        <p>Email: divyakhedkar2417@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/divya-khedkar-26b65a32b?utm_source=share&utm_campaign=share_via&utm_content=
+            profile&utm_medium=android_app" target="_blank">linkedin.com/in/divya -khedkar</a></p>
+        <p>GitHub: <a href="" target="_blank">github.com/divya-khedkar</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+        
+            <a href="https://www.linkedin.com/in/divya-khedkar-26b65a32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_
+            medium=android_app" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/divya-khedkar-26b65a32b?utm_source=share&utm_campaign=share_via&utm_
+            content=profile&utm_medium=android_app" target="_blank">GitHub</a>
+        </div>
+        <p>&copy; 2024 Divya Khedkar</p>
+    </footer>
+
+</body>
+</html>
